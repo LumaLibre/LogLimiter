@@ -1,7 +1,0 @@
-# How long (in seconds) before a previously seen message is treated as "new"
-# and allowed through once again. Default: 60s
-reset-seconds: 60
-
-# How often (in seconds) suppressed messages are printed with their count.
-# e.g. "[Suppressed x42] <message>". Default: 30s
-flush-interval-seconds: 10
