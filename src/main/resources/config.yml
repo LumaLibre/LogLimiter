@@ -5,3 +5,11 @@ reset-seconds: 60
 # How often (in seconds) suppressed messages are printed with their count.
 # e.g. "[Suppressed x42] <message>". Default: 30s
 flush-interval-seconds: 10
+
+# How similar (in percent) two messages must be to be treated as
+# the same message for rate-limiting purposes. Default: 100
+similarity-percent: 90
+
+# How many similar messages are let through within a reset
+# window before the rest are suppressed. Default: 2
+messages-before-block: 2
